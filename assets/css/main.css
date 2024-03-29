@@ -2815,10 +2815,15 @@ input, select, textarea {
         flex-direction: column !important;
     }
 
-    .spotlight .image {
-        width: 100%;
-        max-width: 60%;
-        margin: 0 0 2em 0 !important;
+.spotlight .image {
+    width: 100%; /* Set width to 100% */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Adjust the border-radius as desired */
+    margin: 0 0 2em 0 !important;
+    overflow: hidden; /* Ensure content within the image container is clipped */
+    position: relative; /* Required for absolute positioning of the image */
+}
+
     }
 
     .spotlight .content {
