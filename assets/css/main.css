@@ -2817,8 +2817,8 @@ input, select, textarea {
 
 .spotlight .image {
     width: 100%; /* Set width to 100% */
-    height:0; /* Maintain aspect ratio */
-    padding-bottom: 30%; /* Aspect ratio of 1:1 for square */
+    height:auto; /* Maintain aspect ratio */
+    padding-bottom: 50%; /* Aspect ratio of 1:1 for square */
     border-radius: 10px; /* Adjust the border-radius as desired */
     margin: 0 0 2em 0 !important;
     overflow: hidden; /* Ensure content within the image container is clipped */
