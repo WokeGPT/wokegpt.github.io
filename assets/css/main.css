@@ -2823,13 +2823,7 @@ input, select, textarea {
     .spotlight .content {
         width: 100%;
         text-align: center !important;
-    }
-	
-    .spotlight .image {
-        padding-bottom: 200%; /* Aspect ratio for mobile devices */
-    }
 }
-
 /* Table */
 
 	.table-wrapper {
