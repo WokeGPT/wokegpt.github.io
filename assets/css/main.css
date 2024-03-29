@@ -1,3 +1,4 @@
+
 @import url(fontawesome-all.min.css);
 
 /*
@@ -2823,7 +2824,9 @@ input, select, textarea {
     .spotlight .content {
         width: 100%;
         text-align: center !important;
+    }
 }
+
 /* Table */
 
 	.table-wrapper {
